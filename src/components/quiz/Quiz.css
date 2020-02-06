@@ -1,0 +1,38 @@
+div.react-quiz-container{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: white;
+    opacity: 0.9;
+    font-size: large;
+    font-weight: bold;
+    width: 75%
+}
+
+div.tag-container{
+    display: none;
+}
+
+.quiz-synopsis {
+    padding: 20px 0px;
+}
+
+div.QuizBack{
+    background: url('../../img/artastro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2px;
+}
+
+div.startQuizWrapper{ 
+     margin-bottom: 20px!important;
+}
+
+.nextQuestionBtn{
+    align-content: center;
+    display: contents!important;
+}

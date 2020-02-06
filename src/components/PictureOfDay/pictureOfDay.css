@@ -1,0 +1,98 @@
+.explanation {
+    display:flex;
+    text-align: justify;
+    color: seashell;
+    font-family:"Orbitron";
+    font-size: 0.90vw;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-right:20px;
+    padding-left: 20px;
+
+}
+
+.PicBack {max-width: 50000px !important;}
+.imgmain{display:flex !important; justify-content: center ! important;}
+.titlePicture{
+    font-family: 'Orbitron';
+    color: seashell;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-shadow: black 2px 3px 6px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.PicBack {
+    background-color: black;
+}
+
+.intro {
+    justify-content:center;
+    font-family: 'Orbitron'; 
+    color: seashell;
+    font-size: 1.5vw;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+    
+.bodyPicture{   
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right:20px;
+    padding-left: 20px; 
+}
+
+section.imgmain{
+   
+    text-align: -webkit-center;
+}
+
+img.imgmain {
+
+    margin: 3% 25%;
+    width: 50vw;
+    height: auto;
+}
+
+.creditspart{
+    display: flex;
+    justify-content: right;
+    font-size: 1vw;
+    color: whitesmoke;
+}
+
+.picofday{
+    width: 90vw;
+}
+
+@media only screen and ( max-width: 1000px) {
+    .picofday {
+    max-width: 600px;
+    max-height: 500px;
+    }
+    }
+  
+  @media only screen and ( max-width: 800px) {
+      .picofday {
+      max-width: 500px;
+      max-height: 400px;
+      }
+    }
+  
+    @media only screen and (max-width: 600px) {
+        .picofday {
+            max-width:400px;
+            max-height: 300px;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+    .picofday {
+    max-width:300px;
+    max-height: 200px;
+    }
+    }

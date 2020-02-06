@@ -1,0 +1,78 @@
+footer {
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../img/photo-1467685790346-20bfe73a81f0.jpeg');
+    color: #96272F;
+
+}
+    
+footer .row {   
+    display: flex;
+    flex-direction :row;
+    flex-flow:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 0.8vw;
+    width:100%;
+    font-family: 'Orbitron', sans-serif;
+}
+    
+.colDev {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:20%;
+}
+
+.colDev p {
+    margin:3px;
+    font-size: 1rem;
+}
+
+.colDev :nth-child(1){
+    font-weight: bold;
+}
+        
+#footerSeparator {
+        width:50%;
+        border:#96272F 1px solid;
+        margin : auto;
+        margin-bottom: 0.3rem;
+
+    }
+    
+.colDev img {
+    max-height: 15px;
+}
+
+.newcontact{
+    padding: 1rem;
+    padding-bottom: 6px;
+    padding-top: 9px;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 560px){
+
+    p {font-size: 0.5rem!important;
+    }
+    .colDev p {
+        margin: 0.2rem!important;
+        padding: 0.1rem!important;
+    }
+    .iconEmail, .cellphone{
+        display: none;
+      }
+    .newcontact{
+        font-size: 1rem;
+    }
+}  

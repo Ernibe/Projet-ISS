@@ -1,0 +1,49 @@
+iframe {
+    margin: auto;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border:none;
+ }
+
+.StreetviewBackground{
+  min-height:75vh !important;
+  display: flex; 
+  justify-content: center; 
+  text-align: center;}
+
+
+div.StreetviewBackground{
+  background: url('../../img/issinside.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 2px;
+}
+
+@media only screen and ( max-width: 1000px) {
+  iframe .issView {
+  width: 600px;
+  height: auto;
+  }
+}
+
+@media only screen and ( max-width: 800px) {
+    iframe .issView {
+    width: 500px;
+    height: auto;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    iframe .issView {
+    width:400px;
+    height: auto;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    iframe .issView {
+    width:300px;
+    height: auto;
+    }
+  }

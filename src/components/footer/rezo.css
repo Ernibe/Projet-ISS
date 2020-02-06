@@ -1,0 +1,43 @@
+.social ul {
+    list-style: none!important;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    color: #96272F!important;
+    padding:0;
+}
+
+.social {
+    padding-top: 15px ;
+}
+
+.social li a {
+    font-size: 1rem ;
+    padding: 10px;
+    color:#96272F;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+
+#rezoSeparator {
+    width:75%;
+    border:#96272F 1px solid;
+    margin : auto;
+}
+
+@media only screen and (max-width: 680px) and (min-width: 300px){
+    .social a {
+      font-size: 0px!important;
+      padding: 0.1rem;
+    }
+    .social ul{
+        margin:0;
+        margin-bottom: 7vh;
+    }
+    .social {
+        padding-top: 0px ;
+    }
+    
+}      

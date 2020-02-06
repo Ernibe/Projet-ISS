@@ -1,0 +1,58 @@
+.liveBackground{
+    background: url('../../img/issleft.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2px;
+}
+
+iframe {
+    margin: auto;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border:none;
+ }
+
+
+.StreetviewBackground{
+    min-height:75vh !important;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;}
+  
+
+@media only screen and ( max-width: 1000px) {
+    iframe .issView {
+    width: 600px;
+    height: auto;
+    }
+  }
+  
+  
+@media only screen and ( max-width: 1000px) {
+    iframe.responsive {
+    width: 600px;
+    height: 500px;
+    }
+    }
+    
+    @media only screen and ( max-width: 800px) {
+      iframe.responsive {
+      width: 500px;
+      height: 400px;
+      }
+    }
+    
+    @media only screen and (max-width: 600px) {
+      iframe.responsive {
+      width:400px;
+      height: 400px
+      }
+    }
+    
+    @media only screen and (max-width: 400px) {
+      iframe.responsive {
+      width:300px;
+      height: 400px;
+      }
+    }

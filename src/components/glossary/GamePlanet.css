@@ -1,0 +1,64 @@
+.background-glossary{
+    background: url('../../img/pexels-photo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+}
+
+.choosePlanet{display:flex; justify-content: center; margin:20px;}
+.choosePlanet select{
+    border-right: 1px solid #BCBCC4;
+    padding:10Px !important; 
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color:#96272F;
+    font-weight: bolder;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5%;
+    border: solid 3px #96272F;
+}
+.alphabet{display: flex; justify-content: center;margin:30px;}
+
+.alphabet h2{
+    color:white !important;
+}
+
+.alphabet button {padding:5Px !important; background-color: grey; color:#96272F;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+.alphabet button:hover{color:white;}
+
+.activeLetter{ 
+    display:flex; justify-content:center;
+}
+.activeLetter h2{
+    color:#96272f; 
+    background-color:white;
+    border-radius: 100%; 
+    border: solid 2px #96272f;
+    padding:20px; 
+    font-size:1,4em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.planetListing *{color: white; }
+
+.greenLetters{background-color:#BCBCC4 !important;
+    color:#96272F;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .background-glossary{
+        background: url('../../img/photo-1476111021705-ac3b3304fe20.jpeg');
+        background-attachment: fixed;
+        background-position: center;
+        padding: 20px;
+    }
+}
